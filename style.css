@@ -27,6 +27,9 @@
         right: auto;
         border: 2px solid rgba(62, 131, 119, 0.171);
     }
+    .button {
+        font-size: xx-large;
+    }
 }
 
 
