@@ -30,9 +30,7 @@
     .button {
         font-size: xx-large;
     }
-    #space:hover{
-         background-color: whitesmoke;
-    }
+  
     #tbl td:hover{
          background-color: unset;
     }
