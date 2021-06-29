@@ -31,10 +31,10 @@
         font-size: xx-large;
     }
     #space:hover{
-         background-color: transparent;
+         background-color: whitesmoke;
     }
     #tbl td:hover{
-         background-color: transparent;
+         background-color: unset;
     }
 }
 
