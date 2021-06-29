@@ -1,22 +1,4 @@
-@media screen and (max-width: 650px){
-    #calc{
-        width: 40vw;
-        height: 70vh;
-        min-width: 200px;
-        min-height: 260px;
-        text-align: center;
-        background-color:rgb(236, 237, 238);
-        position: absolute;
-        top: 10%;
-        left: 5%;
-        bottom: auto;
-        right: auto;
-        border: 2px solid rgba(62, 131, 119, 0.171);
-    }
-}
-
-@media screen and (min-width:651px) {
-    #calc {
+#calc {
         width: 20vw;
         height: 50vh;
         min-width: 250px;
@@ -29,8 +11,24 @@
         bottom: auto;
         right: auto;
         border: 2px solid rgba(62, 131, 119, 0.171);
+}
+@media only screen and (max-width: 300mm){
+    #calc{
+        width: 79vw;
+        height: 77vh;
+        min-width: 200px;
+        min-height: 260px;
+        text-align: center;
+        background-color:rgb(236, 237, 238);
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        bottom: auto;
+        right: auto;
+        border: 2px solid rgba(62, 131, 119, 0.171);
     }
 }
+
 
 
 #tbl{
