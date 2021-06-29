@@ -30,6 +30,12 @@
     .button {
         font-size: xx-large;
     }
+    #space:hover{
+         background-color: transparent;
+    }
+    #tbl td:hover{
+         background-color: transparent;
+    }
 }
 
 
