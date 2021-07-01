@@ -76,7 +76,7 @@ for(var i=0;i<buttons.length;i++){                      // adding event listener
         else if(value=="backspace"){
             
             operand1=parseFloat(text.slice(0,-1));     //removing last digit and parsing to to float
-            if(isNaN(operand1)){
+            if(isNaN(operand1) || operand1===0){
                 ans.textContent="";         //checking if it is NaN 
             }
             else{
