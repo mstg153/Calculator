@@ -28,28 +28,48 @@ for(var i=0;i<buttons.length;i++){
         }
         else if(value=='signchange'){
             operand1=parseFloat(text);
+            if(!text.length){
+                ans.textContent="";
+            }else{
             operand1=operand1*(-1);
             ans.textContent=operand1;
+            }
         }
         else if(value=="sqrt"){
             operand1=parseFloat(text);
+            if(!text.length){
+                ans.textContent="";
+            }else{
             operand1=Math.sqrt(operand1);
             ans.textContent=operand1;
+            }
         }
         else if(value=="sqr"){
             operand1=parseFloat(text);
+            if(!text.length){
+                ans.textContent="";
+            }else{
             operand1=operand1*operand1;
             ans.textContent=operand1;
+            }
         }
         else if(value=='perc'){
             operand1=parseFloat(text);
+            if(!text.length){
+                ans.textContent="";
+            }else{
             operand1=operand1/100 ;
             ans.textContent=operand1;
+            }
         }
         else if(value=='rev'){
             operand1=parseFloat(text);
+            if(!text.length){
+                ans.textContent="";
+            }else{
             operand1=1/operand1;
             ans.textContent=operand1;
+            }
         }
         else if(value=="backspace"){
             operand1=parseFloat(text);
@@ -59,7 +79,7 @@ for(var i=0;i<buttons.length;i++){
         else if(value=="="){
             operand2=parseFloat(text);
             var res=eval(operand1+"" +operator +"" +operand2);
-            if(res){
+            if(res != "NaN"){
                 ans.textContent=res;
                 operand2=null;
                 operator=null;
