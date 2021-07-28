@@ -1,3 +1,7 @@
+body{
+        background-color: rgb(52, 54, 53);
+}
+
 #calc {
         width: 20vw;
         height: 50vh;
